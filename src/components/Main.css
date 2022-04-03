@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F28AB2;
+}
+
+.container{
+    width: 400px;
+    background-color: white;
+    margin: 50px auto;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.birthday-person{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    box-shadow: 0 0 2px 1px;
+    margin: 5px auto;
+    width: 90%;
+    border-radius: 3px;
+
+}
+button{
+    padding: 0.5rem;
+    height: 50%;
+    border-radius: 8px;
+    border: none;
+    background-color:yellow;
+    color: red;
+}
+.clear-all-button{
+    width: 50%;
+    margin: 20px;
+    
+}
+p{
+    color: blueviolet;
+}
+h3{
+    padding: 0.5rem;
+}
